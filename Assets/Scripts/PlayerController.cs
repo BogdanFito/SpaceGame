@@ -2,7 +2,7 @@
 using System.Threading;
 using UnityEngine;
 using UnityEngine.SceneManagement;
-
+using UnityEngine.UI;
 
 public class PlayerController : MonoBehaviour
 {
@@ -17,7 +17,8 @@ public class PlayerController : MonoBehaviour
 
     private float moveRight;
 
-    
+    [SerializeField]
+    private Text text;
 
     
 
@@ -28,7 +29,7 @@ public class PlayerController : MonoBehaviour
     void Start()
     {
         transform.position = new Vector3(0, -3.9f, 0);
-        
+        text.text = "Lives " + PlayerLives.ToString();
 
 
     }
@@ -43,6 +44,7 @@ public class PlayerController : MonoBehaviour
     public void lifeSubstraction()
     {
         PlayerLives--;
+        text.text = "Lives " + PlayerLives.ToString();
         if (PlayerLives == 0)
         {
             Instantiate(playerExplosionPrefab, transform.position, Quaternion.identity);

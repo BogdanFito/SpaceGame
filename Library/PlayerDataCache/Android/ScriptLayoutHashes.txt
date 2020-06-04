@@ -1,6 +1,6 @@
 Android
 PlayerPath?
-C:/Users/asus/Desktop/SpaceGame
+C:/Users/asus/Desktop/Temp
 SceneListBegin?
 Assets/Scenes/Start.unity
 Assets/Scenes/GameProcess.unity
@@ -160,4 +160,4 @@ d791aa6007fa3640be1164ea75bb087d Unity.TextMeshPro.dll:TMPro.TMP_StyleSheet
 df434544c9f7b33d1cc7e635b180d279 Unity.TextMeshPro.dll:TMPro.TextMeshPro
 3165968ba45c74472d279ba04455fccb Unity.TextMeshPro.dll:TMPro.TMP_ColorGradient
 8649814970b42d345b89944b862453cc Unity.TextMeshPro.dll:TMPro.TMP_SubMesh
-50a5655af83936f5d45a9c8d6fcb3b1e Assembly-CSharp.dll:.PlayerController
+d87b4056b83a39542d025053708eb899 Assembly-CSharp.dll:.PlayerController
